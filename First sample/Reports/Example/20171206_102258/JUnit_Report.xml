@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Example" time="13" tests="2" failures="0" errors="0">
+   <testsuite name="Example" tests="2" failures="0" errors="0" time="13" timestamp="2017-12-06 10:22:59" hostname="21529 - ws-3591.oasup.pnppk.ru" id="Test Suites/Example">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Example\\20171206_102258"/>
+         <property name="logFiles" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Example\\20171206_102258\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="21529 - ws-3591.oasup.pnppk.ru"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.1.0.2"/>
+         <property name="browser" value="Chrome 62.0.3202.94"/>
+         <property name="hostAddress" value="192.168.66.62"/>
+         <property name="sessionId" value="0f85b44ba18147431f21f152ff9be045"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Authorization" classname="Test Cases/Authorization" status="PASSED">
+         <system-out><![CDATA[2017-12-06 10:22:59 - [TEST_CASE][PASSED] - Test Cases/Authorization: Test Cases/Authorization
+
+2017-12-06 10:23:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2017-12-06 10:23:05 - [MESSAGE][PASSED] - Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2017-12-06 10:23:05 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_logipass/input_login' is present
+
+2017-12-06 10:23:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_logipass/input_login' is present
+
+2017-12-06 10:23:05 - [TEST_STEP][PASSED] - setText: Text '777' is set on object 'Object Repository/Page_logipass/input_login'
+
+2017-12-06 10:23:05 - [MESSAGE][PASSED] - Text '777' is set on object 'Object Repository/Page_logipass/input_login'
+
+2017-12-06 10:23:05 - [TEST_STEP][PASSED] - setText: Text '7p15j9w2a' is set on object 'Object Repository/Page_logipass/input_password'
+
+2017-12-06 10:23:05 - [MESSAGE][PASSED] - Text '7p15j9w2a' is set on object 'Object Repository/Page_logipass/input_password'
+
+2017-12-06 10:23:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_logipass/p_' is clicked on
+
+2017-12-06 10:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_logipass/p_' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create folder" classname="Test Cases/Create folder" status="PASSED">
+         <system-out><![CDATA[2017-12-06 10:23:05 - [TEST_CASE][PASSED] - Test Cases/Create folder: Test Cases/Create folder
+
+2017-12-06 10:23:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vszokdb2:55555/#/admin/data/hierarchy' successfully
+
+2017-12-06 10:23:05 - [MESSAGE][PASSED] - Navigate to 'http://vszokdb2:55555/#/admin/data/hierarchy' successfully
+
+2017-12-06 10:23:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_catalog/td_max-width' is clicked on
+
+2017-12-06 10:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_catalog/td_max-width' is clicked on
+
+2017-12-06 10:23:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_catalog/a_' is clicked on
+
+2017-12-06 10:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_catalog/a_' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-06 10:22:59 - [TEST_SUITE][PASSED] - Example: Test Cases/Create folder]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

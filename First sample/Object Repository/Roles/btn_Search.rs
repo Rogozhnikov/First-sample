@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Search</name>
+   <tag></tag>
+   <elementGuidId>1e46567c-9706-4645-9d30-a5eb37a6a9e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;blockContainer&quot;]/roles-manager/div/div[4]/div[1]/roles-panel/roles-panel-default/panel/div/div[2]/panel-body/role-list/custom-tree/div/div[1]/div/div[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-search fa-2x margin-left-10</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>dataProvider.search()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;blockContainer&quot;)/roles-manager[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;container inner-flex&quot;]/div[@class=&quot;row inner-flex-stretch&quot;]/div[@class=&quot;col-md-6 inner-flex&quot;]/roles-panel[@class=&quot;inner-flex inner-flex-stretch ng-isolate-scope&quot;]/roles-panel-default[@class=&quot;inner-flex inner-flex-stretch ng-isolate-scope&quot;]/panel[@class=&quot;inner-flex inner-flex-stretch ng-isolate-scope&quot;]/div[@class=&quot;panel panel-default inner-flex inner-flex-stretch&quot;]/div[@class=&quot;panel-body inner-flex inner-flex-stretch&quot;]/panel-body[@class=&quot;inner-flex inner-flex-stretch ng-scope&quot;]/role-list[@class=&quot;inner-flex inner-flex-stretch ng-isolate-scope&quot;]/custom-tree[@class=&quot;inner-flex ng-isolate-scope&quot;]/div[@class=&quot;inner-flex inner-flex-stretch&quot;]/div[@class=&quot;display-table ng-scope&quot;]/div[@class=&quot;display-table-row&quot;]/div[@class=&quot;display-table-cell&quot;]/a[@class=&quot;fa fa-search fa-2x margin-left-10&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

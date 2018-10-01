@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Edit_User</name>
+   <tag></tag>
+   <elementGuidId>237bff73-9a1e-4b9e-a902-24429ad6f08f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[1]//a[contains(@class,&quot;fa-pencil&quot;)][contains(@class,&quot;gridHeaderButton&quot;)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-pencil gridHeaderButton text-center ng-scope</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Редактировать</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#/admin/editaccount/11124</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;blockContainer&quot;)/div[@class=&quot;table-builder-rights inner-flex inner-flex-stretch ng-scope&quot;]/div[@class=&quot;container inner-flex&quot;]/custom-grid-simple[@class=&quot;ng-isolate-scope&quot;]/custom-grid[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;dataGrid&quot;]/div[@class=&quot;gridWrapper&quot;]/table[@class=&quot;customGrid&quot;]/tbody[@class=&quot;gridBody ng-scope&quot;]/tr[@class=&quot;bodyRow ng-scope&quot;]/td[@class=&quot;ng-scope bodyCell&quot;]/ng-html-include[@class=&quot;ng-scope&quot;]/a[@class=&quot;fa fa-pencil gridHeaderButton text-center ng-scope&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

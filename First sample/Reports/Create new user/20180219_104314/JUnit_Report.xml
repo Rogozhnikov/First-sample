@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create new user" time="70" tests="1" failures="1" errors="0">
+   <testsuite name="Create new user" tests="1" failures="1" errors="0" time="70" timestamp="2018-02-19 10:43:15" hostname="21529 - ws-3591.oasup.pnppk.ru" id="Test Suites/Create new user">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create new user\\20180219_104314"/>
+         <property name="logFiles" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create new user\\20180219_104314\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create new user\\20180219_104314\\1519019064328.png"/>
+         <property name="hostName" value="21529 - ws-3591.oasup.pnppk.ru"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.11.160"/>
+         <property name="sessionId" value="b611b5e2f54ba242df57d897cababe95"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Authorization_Admin" classname="Test Cases/Authorization_Admin" status="PASSED">
+         <system-out><![CDATA[2018-02-19 10:43:15 - [TEST_CASE][PASSED] - Test Cases/Authorization_Admin: Test Cases/Authorization_Admin
+
+2018-02-19 10:43:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2018-02-19 10:43:21 - [MESSAGE][PASSED] - Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2018-02-19 10:43:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-02-19 10:43:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-19 10:43:22 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Authorization/input_login' is present
+
+2018-02-19 10:43:22 - [MESSAGE][PASSED] - Object 'Object Repository/Authorization/input_login' is present
+
+2018-02-19 10:43:22 - [TEST_STEP][PASSED] - setText: Text '777' is set on object 'Object Repository/Authorization/input_login'
+
+2018-02-19 10:43:22 - [MESSAGE][PASSED] - Text '777' is set on object 'Object Repository/Authorization/input_login'
+
+2018-02-19 10:43:22 - [TEST_STEP][PASSED] - setText: Text '7p15j9w2a' is set on object 'Object Repository/Authorization/input_password'
+
+2018-02-19 10:43:22 - [MESSAGE][PASSED] - Text '7p15j9w2a' is set on object 'Object Repository/Authorization/input_password'
+
+2018-02-19 10:43:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authorization/btn_login' is clicked on
+
+2018-02-19 10:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Authorization/btn_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_User" classname="Test Cases/Create_User" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Users/span_Users' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/span_Users' located by 'By.xpath: id(&quot;angular-root-control&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;primary-sidebar-admin ng-scope&quot;]/ul[@class=&quot;nav nav-stacked&quot;]/li[@class=&quot;dark-nav&quot;]/a[1]/span[@class=&quot;ng-binding&quot;][count(. | //span[(text() = 'Пользователи' or . = 'Пользователи')]) = count(//span[(text() = 'Пользователи' or . = 'Пользователи')])]' not found)"/>
+         <system-out><![CDATA[2018-02-19 10:43:22 - [TEST_CASE][FAILED] - Test Cases/Create_User: Test Cases/Create_User FAILED because (of) Unable to click on object 'Object Repository/Users/span_Users' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/span_Users' located by 'By.xpath: id("angular-root-control")/div[@class="ng-scope"]/div[@class="primary-sidebar-admin ng-scope"]/ul[@class="nav nav-stacked"]/li[@class="dark-nav"]/a[1]/span[@class="ng-binding"][count(. | //span[(text() = 'Пользователи' or . = 'Пользователи')]) = count(//span[(text() = 'Пользователи' or . = 'Пользователи')])]' not found)
+
+2018-02-19 10:43:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vszokdb2:55555/#/admin/data/hierarchy' successfully
+
+2018-02-19 10:43:23 - [MESSAGE][PASSED] - Navigate to 'http://vszokdb2:55555/#/admin/data/hierarchy' successfully
+
+2018-02-19 10:43:23 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Users/span_Users' is not present after 30 second(s)
+
+2018-02-19 10:43:53 - [MESSAGE][WARNING] - Object 'Object Repository/Users/span_Users' is not present after 30 second(s)
+
+2018-02-19 10:43:53 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Users/span_Users' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/span_Users' located by 'By.xpath: id("angular-root-control")/div[@class="ng-scope"]/div[@class="primary-sidebar-admin ng-scope"]/ul[@class="nav nav-stacked"]/li[@class="dark-nav"]/a[1]/span[@class="ng-binding"][count(. | //span[(text() = 'Пользователи' or . = 'Пользователи')]) = count(//span[(text() = 'Пользователи' or . = 'Пользователи')])]' not found)
+
+2018-02-19 10:44:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Users/span_Users' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/span_Users' located by 'By.xpath: id("angular-root-control")/div[@class="ng-scope"]/div[@class="primary-sidebar-admin ng-scope"]/ul[@class="nav nav-stacked"]/li[@class="dark-nav"]/a[1]/span[@class="ng-binding"][count(. | //span[(text() = 'Пользователи' or . = 'Пользователи')]) = count(//span[(text() = 'Пользователи' or . = 'Пользователи')])]' not found)
+[[ATTACHMENT|C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create new user\\20180219_104314\\1519019064328.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-19 10:43:22 - [TEST_CASE][FAILED] - Test Cases/Create_User: Test Cases/Create_User FAILED because (of) Unable to click on object 'Object Repository/Users/span_Users' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/span_Users' located by 'By.xpath: id("angular-root-control")/div[@class="ng-scope"]/div[@class="primary-sidebar-admin ng-scope"]/ul[@class="nav nav-stacked"]/li[@class="dark-nav"]/a[1]/span[@class="ng-binding"][count(. | //span[(text() = 'Пользователи' or . = 'Пользователи')]) = count(//span[(text() = 'Пользователи' or . = 'Пользователи')])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-19 10:43:15 - [TEST_SUITE][FAILED] - Create new user: Test Cases/Create_User FAILED because (of) Unable to click on object 'Object Repository/Users/span_Users' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/span_Users' located by 'By.xpath: id("angular-root-control")/div[@class="ng-scope"]/div[@class="primary-sidebar-admin ng-scope"]/ul[@class="nav nav-stacked"]/li[@class="dark-nav"]/a[1]/span[@class="ng-binding"][count(. | //span[(text() = 'Пользователи' or . = 'Пользователи')]) = count(//span[(text() = 'Пользователи' or . = 'Пользователи')])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-02-19 10:43:15 - [TEST_SUITE][FAILED] - Create new user: Test Cases/Create_User FAILED because (of) Unable to click on object 'Object Repository/Users/span_Users' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/span_Users' located by 'By.xpath: id("angular-root-control")/div[@class="ng-scope"]/div[@class="primary-sidebar-admin ng-scope"]/ul[@class="nav nav-stacked"]/li[@class="dark-nav"]/a[1]/span[@class="ng-binding"][count(. | //span[(text() = 'Пользователи' or . = 'Пользователи')]) = count(//span[(text() = 'Пользователи' or . = 'Пользователи')])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

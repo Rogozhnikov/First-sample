@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create new Role,Chrome 63.0.3239.132,,2018-02-06 14:33:45,2018-02-06 14:33:53,"8,382s",FAILED
+,,,,,,
+Test Cases/Authorization_Admin,Chrome 63.0.3239.132,,2018-02-06 14:33:45,2018-02-06 14:33:52,"7,060s",PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-06 14:33:45,2018-02-06 14:33:51,"5,172s",PASSED
+maximizeWindow,Chrome 63.0.3239.132,,2018-02-06 14:33:51,2018-02-06 14:33:52,"1,391s",PASSED
+waitForElementPresent,Chrome 63.0.3239.132,,2018-02-06 14:33:52,2018-02-06 14:33:52,"0,035s",PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 14:33:52,2018-02-06 14:33:52,"0,093s",PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 14:33:52,2018-02-06 14:33:52,"0,097s",PASSED
+click,Chrome 63.0.3239.132,,2018-02-06 14:33:52,2018-02-06 14:33:52,"0,089s",PASSED
+,,,,,,
+Test Cases/Create_Role,Chrome 63.0.3239.132,,2018-02-06 14:33:52,2018-02-06 14:33:53,"0,442s",FAILED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-06 14:33:52,2018-02-06 14:33:53,"0,320s",PASSED
+waitForElementPresent,Chrome 63.0.3239.132,,2018-02-06 14:33:53,2018-02-06 14:33:53,"0,021s",FAILED

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Global" time="145" tests="4" failures="1" errors="0">
+   <testsuite name="Global" tests="4" failures="1" errors="0" time="145" timestamp="2018-08-03 18:41:33" hostname="Rogoz - DESKTOP-GVTO5AK" id="Test Suites/Global">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\First sample\\Reports\\Global\\20180803_184132"/>
+         <property name="logFiles" value="D:\\Katalon\\First sample\\Reports\\Global\\20180803_184132\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon\\First sample\\Reports\\Global\\20180803_184132\\1533303837781.png"/>
+         <property name="hostName" value="Rogoz - DESKTOP-GVTO5AK"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.100.4"/>
+         <property name="sessionId" value="452c33e70d6d99c95c41d0c98b076165"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Authorization_Admin" classname="Test Cases/Authorization_Admin" status="PASSED">
+         <system-out><![CDATA[2018-08-03 18:41:33 - [TEST_CASE][PASSED] - Test Cases/Authorization_Admin: Test Cases/Authorization_Admin
+
+2018-08-03 18:41:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://test555.test.getreport.pro/'
+
+2018-08-03 18:41:43 - [MESSAGE][PASSED] - Browser is opened with url: 'http://test555.test.getreport.pro/'
+
+2018-08-03 18:41:43 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-03 18:41:45 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-03 18:41:45 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Authorization/input_login' is present
+
+2018-08-03 18:41:45 - [MESSAGE][PASSED] - Object 'Object Repository/Authorization/input_login' is present
+
+2018-08-03 18:41:45 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Authorization/input_login'
+
+2018-08-03 18:41:45 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Authorization/input_login'
+
+2018-08-03 18:41:45 - [TEST_STEP][PASSED] - setText: Text 'fhf2vfrd926k' is set on object 'Object Repository/Authorization/input_password'
+
+2018-08-03 18:41:45 - [MESSAGE][PASSED] - Text 'fhf2vfrd926k' is set on object 'Object Repository/Authorization/input_password'
+
+2018-08-03 18:41:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authorization/btn_login' is clicked on
+
+2018-08-03 18:41:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Authorization/btn_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_new_folder" classname="Test Cases/Create_new_folder" status="PASSED">
+         <system-out><![CDATA[2018-08-03 18:41:45 - [TEST_CASE][PASSED] - Test Cases/Create_new_folder: Test Cases/Create_new_folder
+
+2018-08-03 18:41:45 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Table_designer/Constructor' is present
+
+2018-08-03 18:41:46 - [MESSAGE][PASSED] - Object 'Object Repository/Table_designer/Constructor' is present
+
+2018-08-03 18:41:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Constructor' is clicked on
+
+2018-08-03 18:41:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Constructor' is clicked on
+
+2018-08-03 18:41:46 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Table_designer/All_objects' is present
+
+2018-08-03 18:41:48 - [MESSAGE][PASSED] - Object 'Object Repository/Table_designer/All_objects' is present
+
+2018-08-03 18:41:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/All_objects' is clicked on
+
+2018-08-03 18:41:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/All_objects' is clicked on
+
+2018-08-03 18:41:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_folder' is clicked on
+
+2018-08-03 18:41:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_folder' is clicked on
+
+2018-08-03 18:41:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-03 18:41:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-03 18:41:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_new_folder' is clicked on
+
+2018-08-03 18:41:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_new_folder' is clicked on
+
+2018-08-03 18:41:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-03 18:41:58 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_Table" classname="Test Cases/Create_Table" status="PASSED">
+         <system-out><![CDATA[2018-08-03 18:41:58 - [TEST_CASE][PASSED] - Test Cases/Create_Table: Test Cases/Create_Table
+
+2018-08-03 18:41:58 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Table_designer/All_objects' is present
+
+2018-08-03 18:41:58 - [MESSAGE][PASSED] - Object 'Object Repository/Table_designer/All_objects' is present
+
+2018-08-03 18:41:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/All_objects' is clicked on
+
+2018-08-03 18:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/All_objects' is clicked on
+
+2018-08-03 18:41:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_table' is clicked on
+
+2018-08-03 18:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_table' is clicked on
+
+2018-08-03 18:41:58 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Table_designer/input_table-name' is present
+
+2018-08-03 18:42:00 - [MESSAGE][PASSED] - Object 'Object Repository/Table_designer/input_table-name' is present
+
+2018-08-03 18:42:00 - [TEST_STEP][PASSED] - setText: Text 'Тестовая таблица' is set on object 'Object Repository/Table_designer/input_table-name'
+
+2018-08-03 18:42:00 - [MESSAGE][PASSED] - Text 'Тестовая таблица' is set on object 'Object Repository/Table_designer/input_table-name'
+
+2018-08-03 18:42:00 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Table_designer/btn_create_column' is present
+
+2018-08-03 18:42:00 - [MESSAGE][PASSED] - Object 'Object Repository/Table_designer/btn_create_column' is present
+
+2018-08-03 18:42:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_column' is clicked on
+
+2018-08-03 18:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_column' is clicked on
+
+2018-08-03 18:42:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Column1_id' is clicked on
+
+2018-08-03 18:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Column1_id' is clicked on
+
+2018-08-03 18:42:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/input_name' is clicked on
+
+2018-08-03 18:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/input_name' is clicked on
+
+2018-08-03 18:42:00 - [TEST_STEP][PASSED] - setText: Text 'Номер по порядку' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-08-03 18:42:00 - [MESSAGE][PASSED] - Text 'Номер по порядку' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-08-03 18:42:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-08-03 18:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-08-03 18:42:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Choose_integer' is clicked on
+
+2018-08-03 18:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Choose_integer' is clicked on
+
+2018-08-03 18:42:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_column' is clicked on
+
+2018-08-03 18:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_column' is clicked on
+
+2018-08-03 18:42:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Column2_string' is clicked on
+
+2018-08-03 18:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Column2_string' is clicked on
+
+2018-08-03 18:42:01 - [TEST_STEP][PASSED] - setText: Text 'Строка' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-08-03 18:42:01 - [MESSAGE][PASSED] - Text 'Строка' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-08-03 18:42:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_column_group' is clicked on
+
+2018-08-03 18:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_column_group' is clicked on
+
+2018-08-03 18:42:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-08-03 18:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-08-03 18:42:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_internal_column' is clicked on
+
+2018-08-03 18:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_internal_column' is clicked on
+
+2018-08-03 18:42:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/New_column_click' is clicked on
+
+2018-08-03 18:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/New_column_click' is clicked on
+
+2018-08-03 18:42:01 - [TEST_STEP][PASSED] - setText: Text 'Текст' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-08-03 18:42:01 - [MESSAGE][PASSED] - Text 'Текст' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-08-03 18:42:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-08-03 18:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-08-03 18:42:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Choose_multitext' is clicked on
+
+2018-08-03 18:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Choose_multitext' is clicked on
+
+2018-08-03 18:42:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Pre_column' is clicked on
+
+2018-08-03 18:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Pre_column' is clicked on
+
+2018-08-03 18:42:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-08-03 18:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-08-03 18:42:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_internal_column' is clicked on
+
+2018-08-03 18:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_internal_column' is clicked on
+
+2018-08-03 18:42:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/New_column_click' is clicked on
+
+2018-08-03 18:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/New_column_click' is clicked on
+
+2018-08-03 18:42:02 - [TEST_STEP][PASSED] - setText: Text 'Вещественное' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-08-03 18:42:02 - [MESSAGE][PASSED] - Text 'Вещественное' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-08-03 18:42:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-08-03 18:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-08-03 18:42:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Choose_real' is clicked on
+
+2018-08-03 18:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Choose_real' is clicked on
+
+2018-08-03 18:42:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-08-03 18:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-08-03 18:42:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_internal_column' is clicked on
+
+2018-08-03 18:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_internal_column' is clicked on
+
+2018-08-03 18:42:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/New_column_click' is clicked on
+
+2018-08-03 18:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/New_column_click' is clicked on
+
+2018-08-03 18:42:02 - [TEST_STEP][PASSED] - setText: Text 'Дата' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-08-03 18:42:02 - [MESSAGE][PASSED] - Text 'Дата' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-08-03 18:42:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-08-03 18:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-08-03 18:42:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Choose_date' is clicked on
+
+2018-08-03 18:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Choose_date' is clicked on
+
+2018-08-03 18:42:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-08-03 18:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-08-03 18:42:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Pre_column' is clicked on
+
+2018-08-03 18:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Pre_column' is clicked on
+
+2018-08-03 18:42:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_internal_column' is clicked on
+
+2018-08-03 18:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_internal_column' is clicked on
+
+2018-08-03 18:42:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/New_column_click' is clicked on
+
+2018-08-03 18:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/New_column_click' is clicked on
+
+2018-08-03 18:42:03 - [TEST_STEP][PASSED] - setText: Text 'Дата и время' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-08-03 18:42:03 - [MESSAGE][PASSED] - Text 'Дата и время' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-08-03 18:42:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-08-03 18:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-08-03 18:42:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Choose_date_time' is clicked on
+
+2018-08-03 18:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Choose_date_time' is clicked on
+
+2018-08-03 18:42:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Pre_column' is clicked on
+
+2018-08-03 18:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Pre_column' is clicked on
+
+2018-08-03 18:42:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-08-03 18:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-08-03 18:42:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_internal_column' is clicked on
+
+2018-08-03 18:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_internal_column' is clicked on
+
+2018-08-03 18:42:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/New_column_click' is clicked on
+
+2018-08-03 18:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/New_column_click' is clicked on
+
+2018-08-03 18:42:03 - [TEST_STEP][PASSED] - setText: Text 'Логический' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-08-03 18:42:04 - [MESSAGE][PASSED] - Text 'Логический' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-08-03 18:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-08-03 18:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-08-03 18:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Choose_logic' is clicked on
+
+2018-08-03 18:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Choose_logic' is clicked on
+
+2018-08-03 18:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Pre_column' is clicked on
+
+2018-08-03 18:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Pre_column' is clicked on
+
+2018-08-03 18:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-08-03 18:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-08-03 18:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_internal_column' is clicked on
+
+2018-08-03 18:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_internal_column' is clicked on
+
+2018-08-03 18:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/New_column_click' is clicked on
+
+2018-08-03 18:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/New_column_click' is clicked on
+
+2018-08-03 18:42:04 - [TEST_STEP][PASSED] - setText: Text 'Файл' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-08-03 18:42:04 - [MESSAGE][PASSED] - Text 'Файл' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-08-03 18:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-08-03 18:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-08-03 18:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Choose_file' is clicked on
+
+2018-08-03 18:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Choose_file' is clicked on
+
+2018-08-03 18:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_save_table ' is clicked on
+
+2018-08-03 18:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_save_table ' is clicked on
+
+2018-08-03 18:42:04 - [TEST_STEP][PASSED] - delay: Delayed 75 second(s)
+
+2018-08-03 18:43:19 - [MESSAGE][PASSED] - Delayed 75 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_Role" classname="Test Cases/Create_Role" status="PASSED">
+         <system-out><![CDATA[2018-08-03 18:43:19 - [TEST_CASE][PASSED] - Test Cases/Create_Role: Test Cases/Create_Role
+
+2018-08-03 18:43:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Roles/span_Roles' is clicked on
+
+2018-08-03 18:43:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Roles/span_Roles' is clicked on
+
+2018-08-03 18:43:20 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Roles/Bread-crumbs' is visible
+
+2018-08-03 18:43:22 - [MESSAGE][PASSED] - Object 'Object Repository/Roles/Bread-crumbs' is visible
+
+2018-08-03 18:43:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Roles/btn_create' is clicked on
+
+2018-08-03 18:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Roles/btn_create' is clicked on
+
+2018-08-03 18:43:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Roles/input_form_RoleName' is clicked on
+
+2018-08-03 18:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Roles/input_form_RoleName' is clicked on
+
+2018-08-03 18:43:22 - [TEST_STEP][PASSED] - setText: Text 'Тестовая роль katalon 1' is set on object 'Object Repository/Roles/input_form_RoleName'
+
+2018-08-03 18:43:23 - [MESSAGE][PASSED] - Text 'Тестовая роль katalon 1' is set on object 'Object Repository/Roles/input_form_RoleName'
+
+2018-08-03 18:43:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Roles/button_Ok' is clicked on
+
+2018-08-03 18:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Roles/button_Ok' is clicked on
+
+2018-08-03 18:43:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Roles/button_save' is clicked on
+
+2018-08-03 18:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Roles/button_save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_User" classname="Test Cases/Create_User" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '23022028' of object 'Object Repository/Users/input_form_Number' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/input_form_Number' located by 'By.xpath: //input[@ng-model=&quot;$ctrl.account.Number&quot;]
+' not found)"/>
+         <system-out><![CDATA[2018-08-03 18:43:23 - [TEST_CASE][FAILED] - Test Cases/Create_User: Test Cases/Create_User FAILED because (of) Unable to set text '23022028' of object 'Object Repository/Users/input_form_Number' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/input_form_Number' located by 'By.xpath: //input[@ng-model="$ctrl.account.Number"]
+' not found)
+
+2018-08-03 18:43:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/span_Users' is clicked on
+
+2018-08-03 18:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/span_Users' is clicked on
+
+2018-08-03 18:43:23 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Users/btn_create_user' is visible
+
+2018-08-03 18:43:24 - [MESSAGE][PASSED] - Object 'Object Repository/Users/btn_create_user' is visible
+
+2018-08-03 18:43:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/btn_create_user' is clicked on
+
+2018-08-03 18:43:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/btn_create_user' is clicked on
+
+2018-08-03 18:43:24 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Users/input_form_Login' is present
+
+2018-08-03 18:43:25 - [MESSAGE][PASSED] - Object 'Object Repository/Users/input_form_Login' is present
+
+2018-08-03 18:43:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/input_form_Login' is clicked on
+
+2018-08-03 18:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/input_form_Login' is clicked on
+
+2018-08-03 18:43:25 - [TEST_STEP][PASSED] - setText: Text 'Тестовый пользователь katalon12' is set on object 'Object Repository/Users/input_form_Login'
+
+2018-08-03 18:43:25 - [MESSAGE][PASSED] - Text 'Тестовый пользователь katalon12' is set on object 'Object Repository/Users/input_form_Login'
+
+2018-08-03 18:43:25 - [TEST_STEP][PASSED] - setText: Text 'Тестовый' is set on object 'Object Repository/Users/input_Soname'
+
+2018-08-03 18:43:25 - [MESSAGE][PASSED] - Text 'Тестовый' is set on object 'Object Repository/Users/input_Soname'
+
+2018-08-03 18:43:25 - [TEST_STEP][PASSED] - setText: Text 'Пользователь' is set on object 'Object Repository/Users/input_form_Name'
+
+2018-08-03 18:43:25 - [MESSAGE][PASSED] - Text 'Пользователь' is set on object 'Object Repository/Users/input_form_Name'
+
+2018-08-03 18:43:25 - [TEST_STEP][PASSED] - setText: Text 'rogozhnikov_sergey@live.ru' is set on object 'Object Repository/Users/input_form_Post'
+
+2018-08-03 18:43:26 - [MESSAGE][PASSED] - Text 'rogozhnikov_sergey@live.ru' is set on object 'Object Repository/Users/input_form_Post'
+
+2018-08-03 18:43:26 - [TEST_STEP][PASSED] - setText: Text '89655734190' is set on object 'Object Repository/Users/input_form_Phone'
+
+2018-08-03 18:43:26 - [MESSAGE][PASSED] - Text '89655734190' is set on object 'Object Repository/Users/input_form_Phone'
+
+2018-08-03 18:43:26 - [TEST_STEP][FAILED] - setText: Unable to set text '23022028' of object 'Object Repository/Users/input_form_Number' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/input_form_Number' located by 'By.xpath: //input[@ng-model="$ctrl.account.Number"]
+' not found)
+
+2018-08-03 18:43:58 - [MESSAGE][FAILED] - Unable to set text '23022028' of object 'Object Repository/Users/input_form_Number' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/input_form_Number' located by 'By.xpath: //input[@ng-model="$ctrl.account.Number"]
+' not found)
+[[ATTACHMENT|D:\\Katalon\\First sample\\Reports\\Global\\20180803_184132\\1533303837781.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-03 18:43:23 - [TEST_CASE][FAILED] - Test Cases/Create_User: Test Cases/Create_User FAILED because (of) Unable to set text '23022028' of object 'Object Repository/Users/input_form_Number' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/input_form_Number' located by 'By.xpath: //input[@ng-model="$ctrl.account.Number"]
+' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-03 18:41:33 - [TEST_SUITE][FAILED] - Global: Test Cases/Create_User FAILED because (of) Unable to set text '23022028' of object 'Object Repository/Users/input_form_Number' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/input_form_Number' located by 'By.xpath: //input[@ng-model="$ctrl.account.Number"]
+' not found)]]></system-out>
+      <system-err><![CDATA[2018-08-03 18:41:33 - [TEST_SUITE][FAILED] - Global: Test Cases/Create_User FAILED because (of) Unable to set text '23022028' of object 'Object Repository/Users/input_form_Number' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/input_form_Number' located by 'By.xpath: //input[@ng-model="$ctrl.account.Number"]
+' not found)]]></system-err>
+   </testsuite>
+</testsuites>

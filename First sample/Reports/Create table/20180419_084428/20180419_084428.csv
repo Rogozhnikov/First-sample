@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create table,,,2018-04-19 08:44:29,2018-04-19 08:44:31,"1,323s",FAILED
+,,,,,,
+Test Cases/Authorization_Admin,,,2018-04-19 08:44:30,2018-04-19 08:44:30,"0,828s",FAILED
+openBrowser,,,2018-04-19 08:44:30,2018-04-19 08:44:30,"0,621s",FAILED
+,,,,,,
+Test Cases/Create_Table,,,2018-04-19 08:44:30,2018-04-19 08:44:31,"0,173s",FAILED
+waitForElementPresent,,,2018-04-19 08:44:31,2018-04-19 08:44:31,"0,053s",FAILED

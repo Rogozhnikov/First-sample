@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Example,Chrome 62.0.3202.94,,2017-12-08 08:27:58,2017-12-08 08:30:03,"2m - 4,412s",FAILED
+,,,,,,
+Test Cases/Authorization,Chrome 62.0.3202.94,,2017-12-08 08:27:59,2017-12-08 08:28:59,"1m - 0,691s",PASSED
+openBrowser,Chrome 62.0.3202.94,,2017-12-08 08:27:59,2017-12-08 08:28:59,"59,796s",PASSED
+waitForElementPresent,Chrome 62.0.3202.94,,2017-12-08 08:28:59,2017-12-08 08:28:59,"0,147s",PASSED
+setText,Chrome 62.0.3202.94,,2017-12-08 08:28:59,2017-12-08 08:28:59,"0,246s",PASSED
+setText,Chrome 62.0.3202.94,,2017-12-08 08:28:59,2017-12-08 08:28:59,"0,161s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-08 08:28:59,2017-12-08 08:28:59,"0,090s",PASSED
+,,,,,,
+Test Cases/Create table,Chrome 62.0.3202.94,,2017-12-08 08:28:59,2017-12-08 08:30:02,"1m - 2,706s",FAILED
+navigateToUrl,Chrome 62.0.3202.94,,2017-12-08 08:28:59,2017-12-08 08:28:59,"0,069s",PASSED
+waitForElementPresent,Chrome 62.0.3202.94,,2017-12-08 08:28:59,2017-12-08 08:29:31,"31,228s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-08 08:29:31,2017-12-08 08:30:02,"31,306s",FAILED

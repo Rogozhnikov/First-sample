@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_btn_single_select</name>
+   <tag></tag>
+   <elementGuidId>9db03584-d9c6-4143-9ffc-c2c9f663b06d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;blockContainer&quot;]/div/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div/div/div/div/table/tbody[8]/tr[1]/td[2]/div/div/input[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default form-control ui-select-toggle</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Select box activate</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>$select.disabled</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>$select.activate()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;blockContainer&quot;)/div[@class=&quot;inner-flex ng-scope&quot;]/div[@class=&quot;inner-flex-stretch&quot;]/div[@class=&quot;panel panel-default inner-flex&quot;]/div[@class=&quot;panel-body padded inner-flex-stretch inner-flex&quot;]/div[@class=&quot;inner-flex-stretch inner-flex ng-scope&quot;]/div[@class=&quot;inner-flex inner-flex-stretch ng-scope&quot;]/div[@class=&quot;row inner-flex-stretch&quot;]/div[@class=&quot;col-md-7 inner-flex&quot;]/div[@class=&quot;panel panel-info inner-flex-stretch&quot;]/div[@class=&quot;panel-body&quot;]/div[1]/div[1]/div[1]/table[@class=&quot;table table-hover&quot;]/tbody[8]/tr[1]/td[2]/div[1]/div[@class=&quot;max-width ui-select-container ui-select-bootstrap dropdown ng-pristine ng-untouched ng-valid ng-scope ng-empty&quot;]/div[@class=&quot;ui-select-match ng-scope&quot;]/span[@class=&quot;btn btn-default form-control ui-select-toggle&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create new Role" time="40" tests="1" failures="1" errors="0">
+   <testsuite name="Create new Role" tests="1" failures="1" errors="0" time="40" timestamp="2018-02-06 14:07:33" hostname="21529 - ws-3591.oasup.pnppk.ru" id="Test Suites/Create new Role">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create new Role\\20180206_140732"/>
+         <property name="logFiles" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create new Role\\20180206_140732\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create new Role\\20180206_140732\\1517908093509.png"/>
+         <property name="hostName" value="21529 - ws-3591.oasup.pnppk.ru"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.66.170"/>
+         <property name="sessionId" value="5a6f9e2c2a734d7ce931926c22109e56"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Authorization_Admin" classname="Test Cases/Authorization_Admin" status="PASSED">
+         <system-out><![CDATA[2018-02-06 14:07:34 - [TEST_CASE][PASSED] - Test Cases/Authorization_Admin: Test Cases/Authorization_Admin
+
+2018-02-06 14:07:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2018-02-06 14:07:39 - [MESSAGE][PASSED] - Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2018-02-06 14:07:39 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-02-06 14:07:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-06 14:07:41 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_logipass/input_login' is present
+
+2018-02-06 14:07:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_logipass/input_login' is present
+
+2018-02-06 14:07:41 - [TEST_STEP][PASSED] - setText: Text '777' is set on object 'Object Repository/Page_logipass/input_login'
+
+2018-02-06 14:07:41 - [MESSAGE][PASSED] - Text '777' is set on object 'Object Repository/Page_logipass/input_login'
+
+2018-02-06 14:07:41 - [TEST_STEP][PASSED] - setText: Text '7p15j9w2a' is set on object 'Object Repository/Page_logipass/input_password'
+
+2018-02-06 14:07:41 - [MESSAGE][PASSED] - Text '7p15j9w2a' is set on object 'Object Repository/Page_logipass/input_password'
+
+2018-02-06 14:07:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_logipass/btn_login' is clicked on
+
+2018-02-06 14:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_logipass/btn_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_Role" classname="Test Cases/Create_Role" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'Тестовая роль Katalon' of object 'Object Repository/Roles/input_form_RoleName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Roles/input_form_RoleName' located by 'By.xpath: /html/body/div[1]/div/div/role-edit-modal/modal-wnd/div[2]/body-block/role-edit/div/div/div/input' not found)"/>
+         <system-out><![CDATA[2018-02-06 14:07:41 - [TEST_CASE][FAILED] - Test Cases/Create_Role: Test Cases/Create_Role FAILED because (of) Unable to set text 'Тестовая роль Katalon' of object 'Object Repository/Roles/input_form_RoleName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Roles/input_form_RoleName' located by 'By.xpath: /html/body/div[1]/div/div/role-edit-modal/modal-wnd/div[2]/body-block/role-edit/div/div/div/input' not found)
+
+2018-02-06 14:07:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vszokdb2:55555/#/admin/data/hierarchy' successfully
+
+2018-02-06 14:07:41 - [MESSAGE][PASSED] - Navigate to 'http://vszokdb2:55555/#/admin/data/hierarchy' successfully
+
+2018-02-06 14:07:41 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Roles/span_Roles' is present
+
+2018-02-06 14:07:42 - [MESSAGE][PASSED] - Object 'Object Repository/Roles/span_Roles' is present
+
+2018-02-06 14:07:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Roles/span_Roles' is clicked on
+
+2018-02-06 14:07:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Roles/span_Roles' is clicked on
+
+2018-02-06 14:07:42 - [TEST_STEP][FAILED] - setText: Unable to set text 'Тестовая роль Katalon' of object 'Object Repository/Roles/input_form_RoleName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Roles/input_form_RoleName' located by 'By.xpath: /html/body/div[1]/div/div/role-edit-modal/modal-wnd/div[2]/body-block/role-edit/div/div/div/input' not found)
+
+2018-02-06 14:08:13 - [MESSAGE][FAILED] - Unable to set text 'Тестовая роль Katalon' of object 'Object Repository/Roles/input_form_RoleName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Roles/input_form_RoleName' located by 'By.xpath: /html/body/div[1]/div/div/role-edit-modal/modal-wnd/div[2]/body-block/role-edit/div/div/div/input' not found)
+[[ATTACHMENT|C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create new Role\\20180206_140732\\1517908093509.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-06 14:07:41 - [TEST_CASE][FAILED] - Test Cases/Create_Role: Test Cases/Create_Role FAILED because (of) Unable to set text 'Тестовая роль Katalon' of object 'Object Repository/Roles/input_form_RoleName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Roles/input_form_RoleName' located by 'By.xpath: /html/body/div[1]/div/div/role-edit-modal/modal-wnd/div[2]/body-block/role-edit/div/div/div/input' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-06 14:07:33 - [TEST_SUITE][FAILED] - Create new Role: Test Cases/Create_Role FAILED because (of) Unable to set text 'Тестовая роль Katalon' of object 'Object Repository/Roles/input_form_RoleName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Roles/input_form_RoleName' located by 'By.xpath: /html/body/div[1]/div/div/role-edit-modal/modal-wnd/div[2]/body-block/role-edit/div/div/div/input' not found)]]></system-out>
+      <system-err><![CDATA[2018-02-06 14:07:33 - [TEST_SUITE][FAILED] - Create new Role: Test Cases/Create_Role FAILED because (of) Unable to set text 'Тестовая роль Katalon' of object 'Object Repository/Roles/input_form_RoleName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Roles/input_form_RoleName' located by 'By.xpath: /html/body/div[1]/div/div/role-edit-modal/modal-wnd/div[2]/body-block/role-edit/div/div/div/input' not found)]]></system-err>
+   </testsuite>
+</testsuites>

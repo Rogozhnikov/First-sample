@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create table,Chrome 64.0.3282.186,,2018-03-05 12:56:33,2018-03-05 13:01:45,"5m - 11,799s",FAILED
+,,,,,,
+Test Cases/Authorization_Admin,Chrome 64.0.3282.186,,2018-03-05 12:56:33,2018-03-05 12:56:43,"10,046s",PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-05 12:56:34,2018-03-05 12:56:42,"8,079s",PASSED
+maximizeWindow,Chrome 64.0.3282.186,,2018-03-05 12:56:42,2018-03-05 12:56:43,"1,396s",PASSED
+waitForElementPresent,Chrome 64.0.3282.186,,2018-03-05 12:56:43,2018-03-05 12:56:43,"0,044s",PASSED
+setText,Chrome 64.0.3282.186,,2018-03-05 12:56:43,2018-03-05 12:56:43,"0,134s",PASSED
+setText,Chrome 64.0.3282.186,,2018-03-05 12:56:43,2018-03-05 12:56:43,"0,136s",PASSED
+click,Chrome 64.0.3282.186,,2018-03-05 12:56:43,2018-03-05 12:56:43,"0,070s",PASSED
+,,,,,,
+Test Cases/Create_Table,Chrome 64.0.3282.186,,2018-03-05 12:56:43,2018-03-05 13:01:44,"5m - 0,867s",FAILED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-05 12:56:44,2018-03-05 13:01:44,"5m - 0,713s",FAILED

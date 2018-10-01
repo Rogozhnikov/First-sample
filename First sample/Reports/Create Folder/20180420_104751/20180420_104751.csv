@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create Folder,,,2018-04-20 10:47:52,2018-04-20 10:47:53,"0,950s",FAILED
+,,,,,,
+Test Cases/Authorization_Admin,,,2018-04-20 10:47:52,2018-04-20 10:47:53,"0,556s",FAILED
+openBrowser,,,2018-04-20 10:47:53,2018-04-20 10:47:53,"0,352s",FAILED
+,,,,,,
+Test Cases/Create_new_folder,,,2018-04-20 10:47:53,2018-04-20 10:47:53,"0,144s",FAILED
+waitForElementPresent,,,2018-04-20 10:47:53,2018-04-20 10:47:53,"0,039s",FAILED

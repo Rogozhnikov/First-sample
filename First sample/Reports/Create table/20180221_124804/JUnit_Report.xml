@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create table" time="56" tests="1" failures="1" errors="0">
+   <testsuite name="Create table" tests="1" failures="1" errors="0" time="56" timestamp="2018-02-21 12:48:05" hostname="21529 - ws-3591.oasup.pnppk.ru" id="Test Suites/Create table">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create table\\20180221_124804"/>
+         <property name="logFiles" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create table\\20180221_124804\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create table\\20180221_124804\\1519199341195.png"/>
+         <property name="hostName" value="21529 - ws-3591.oasup.pnppk.ru"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.11.68"/>
+         <property name="sessionId" value="e446b571a82a99e34a86b4c498df423f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Authorization_Admin" classname="Test Cases/Authorization_Admin" status="PASSED">
+         <system-out><![CDATA[2018-02-21 12:48:05 - [TEST_CASE][PASSED] - Test Cases/Authorization_Admin: Test Cases/Authorization_Admin
+
+2018-02-21 12:48:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2018-02-21 12:48:15 - [MESSAGE][PASSED] - Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2018-02-21 12:48:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-02-21 12:48:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-21 12:48:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Authorization/input_login' is present
+
+2018-02-21 12:48:16 - [MESSAGE][PASSED] - Object 'Object Repository/Authorization/input_login' is present
+
+2018-02-21 12:48:16 - [TEST_STEP][PASSED] - setText: Text '777' is set on object 'Object Repository/Authorization/input_login'
+
+2018-02-21 12:48:16 - [MESSAGE][PASSED] - Text '777' is set on object 'Object Repository/Authorization/input_login'
+
+2018-02-21 12:48:16 - [TEST_STEP][PASSED] - setText: Text '7p15j9w2a' is set on object 'Object Repository/Authorization/input_password'
+
+2018-02-21 12:48:17 - [MESSAGE][PASSED] - Text '7p15j9w2a' is set on object 'Object Repository/Authorization/input_password'
+
+2018-02-21 12:48:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authorization/btn_login' is clicked on
+
+2018-02-21 12:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Authorization/btn_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_Table" classname="Test Cases/Create_Table" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Table_designer/Choose_integer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Table_designer/Choose_integer' located by 'By.cssSelector: //div[contains(@ng-model,&quot;selectedNode.DisplayType&quot;)]//ul/li/div[5]' not found)"/>
+         <system-out><![CDATA[2018-02-21 12:48:17 - [TEST_CASE][FAILED] - Test Cases/Create_Table: Test Cases/Create_Table FAILED because (of) Unable to click on object 'Object Repository/Table_designer/Choose_integer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Table_designer/Choose_integer' located by 'By.cssSelector: //div[contains(@ng-model,"selectedNode.DisplayType")]//ul/li/div[5]' not found)
+
+2018-02-21 12:48:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vszokdb2:55555/#/admin/data/hierarchy' successfully
+
+2018-02-21 12:48:17 - [MESSAGE][PASSED] - Navigate to 'http://vszokdb2:55555/#/admin/data/hierarchy' successfully
+
+2018-02-21 12:48:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Table_designer/All_objects' is present
+
+2018-02-21 12:48:23 - [MESSAGE][PASSED] - Object 'Object Repository/Table_designer/All_objects' is present
+
+2018-02-21 12:48:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_table' is clicked on
+
+2018-02-21 12:48:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_table' is clicked on
+
+2018-02-21 12:48:23 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Table_designer/input_table-name' is present
+
+2018-02-21 12:48:29 - [MESSAGE][PASSED] - Object 'Object Repository/Table_designer/input_table-name' is present
+
+2018-02-21 12:48:29 - [TEST_STEP][PASSED] - setText: Text 'Тестовая таблица' is set on object 'Object Repository/Table_designer/input_table-name'
+
+2018-02-21 12:48:29 - [MESSAGE][PASSED] - Text 'Тестовая таблица' is set on object 'Object Repository/Table_designer/input_table-name'
+
+2018-02-21 12:48:29 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Table_designer/btn_create_column' is present
+
+2018-02-21 12:48:29 - [MESSAGE][PASSED] - Object 'Object Repository/Table_designer/btn_create_column' is present
+
+2018-02-21 12:48:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_column' is clicked on
+
+2018-02-21 12:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_column' is clicked on
+
+2018-02-21 12:48:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Column1_id' is clicked on
+
+2018-02-21 12:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Column1_id' is clicked on
+
+2018-02-21 12:48:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/input_name' is clicked on
+
+2018-02-21 12:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/input_name' is clicked on
+
+2018-02-21 12:48:30 - [TEST_STEP][PASSED] - setText: Text 'Номер по порядку' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-02-21 12:48:30 - [MESSAGE][PASSED] - Text 'Номер по порядку' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-02-21 12:48:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Column1_id' is clicked on
+
+2018-02-21 12:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Column1_id' is clicked on
+
+2018-02-21 12:48:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-02-21 12:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-02-21 12:48:30 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Table_designer/Choose_integer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Table_designer/Choose_integer' located by 'By.cssSelector: //div[contains(@ng-model,"selectedNode.DisplayType")]//ul/li/div[5]' not found)
+
+2018-02-21 12:49:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Table_designer/Choose_integer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Table_designer/Choose_integer' located by 'By.cssSelector: //div[contains(@ng-model,"selectedNode.DisplayType")]//ul/li/div[5]' not found)
+[[ATTACHMENT|C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create table\\20180221_124804\\1519199341195.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-21 12:48:17 - [TEST_CASE][FAILED] - Test Cases/Create_Table: Test Cases/Create_Table FAILED because (of) Unable to click on object 'Object Repository/Table_designer/Choose_integer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Table_designer/Choose_integer' located by 'By.cssSelector: //div[contains(@ng-model,"selectedNode.DisplayType")]//ul/li/div[5]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-21 12:48:05 - [TEST_SUITE][FAILED] - Create table: Test Cases/Create_Table FAILED because (of) Unable to click on object 'Object Repository/Table_designer/Choose_integer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Table_designer/Choose_integer' located by 'By.cssSelector: //div[contains(@ng-model,"selectedNode.DisplayType")]//ul/li/div[5]' not found)]]></system-out>
+      <system-err><![CDATA[2018-02-21 12:48:05 - [TEST_SUITE][FAILED] - Create table: Test Cases/Create_Table FAILED because (of) Unable to click on object 'Object Repository/Table_designer/Choose_integer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Table_designer/Choose_integer' located by 'By.cssSelector: //div[contains(@ng-model,"selectedNode.DisplayType")]//ul/li/div[5]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

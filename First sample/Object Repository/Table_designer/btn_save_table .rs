@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_save_table </name>
+   <tag></tag>
+   <elementGuidId>7a619db0-edf7-4ddc-9db4-35118e255aaf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(@class, 'btn-success')][@ng-click=&quot;shared.save()&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-success ng-binding</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>shared.save()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{preventActive:isSaveProcess}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>isSaveProcess</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    Сохранить
+                </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;blockContainer&quot;)/div[@class=&quot;inner-flex ng-scope&quot;]/div[@class=&quot;inner-flex-stretch&quot;]/div[@class=&quot;panel panel-default inner-flex&quot;]/div[@class=&quot;panel-body padded inner-flex-stretch inner-flex&quot;]/div[@class=&quot;inner-flex-stretch inner-flex ng-scope&quot;]/div[@class=&quot;inner-flex inner-flex-stretch ng-scope&quot;]/div[@class=&quot;row inner-flex-stretch&quot;]/div[@class=&quot;col-md-5 inner-flex&quot;]/div[@class=&quot;leave-buttons&quot;]/a[@class=&quot;btn btn-success ng-binding&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

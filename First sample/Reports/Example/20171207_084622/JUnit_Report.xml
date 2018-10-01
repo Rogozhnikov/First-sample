@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Example" time="22" tests="2" failures="0" errors="0">
+   <testsuite name="Example" tests="2" failures="0" errors="0" time="22" timestamp="2017-12-07 08:46:23" hostname="21529 - ws-3591.oasup.pnppk.ru" id="Test Suites/Example">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Example\\20171207_084622"/>
+         <property name="logFiles" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Example\\20171207_084622\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="21529 - ws-3591.oasup.pnppk.ru"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.1.0.2"/>
+         <property name="browser" value="Chrome 62.0.3202.94"/>
+         <property name="hostAddress" value="192.168.66.62"/>
+         <property name="sessionId" value="549e0c3533ef5a2a9c68fc955215d2a5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Authorization" classname="Test Cases/Authorization" status="PASSED">
+         <system-out><![CDATA[2017-12-07 08:46:24 - [TEST_CASE][PASSED] - Test Cases/Authorization: Test Cases/Authorization
+
+2017-12-07 08:46:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2017-12-07 08:46:30 - [MESSAGE][PASSED] - Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2017-12-07 08:46:30 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_logipass/input_login' is present
+
+2017-12-07 08:46:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_logipass/input_login' is present
+
+2017-12-07 08:46:30 - [TEST_STEP][PASSED] - setText: Text '777' is set on object 'Object Repository/Page_logipass/input_login'
+
+2017-12-07 08:46:30 - [MESSAGE][PASSED] - Text '777' is set on object 'Object Repository/Page_logipass/input_login'
+
+2017-12-07 08:46:30 - [TEST_STEP][PASSED] - setText: Text '7p15j9w2a' is set on object 'Object Repository/Page_logipass/input_password'
+
+2017-12-07 08:46:30 - [MESSAGE][PASSED] - Text '7p15j9w2a' is set on object 'Object Repository/Page_logipass/input_password'
+
+2017-12-07 08:46:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_logipass/p_' is clicked on
+
+2017-12-07 08:46:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_logipass/p_' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create table" classname="Test Cases/Create table" status="PASSED">
+         <system-out><![CDATA[2017-12-07 08:46:30 - [TEST_CASE][PASSED] - Test Cases/Create table: Test Cases/Create table
+
+2017-12-07 08:46:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vszokdb2:55555/#/admin/data/hierarchy' successfully
+
+2017-12-07 08:46:30 - [MESSAGE][PASSED] - Navigate to 'http://vszokdb2:55555/#/admin/data/hierarchy' successfully
+
+2017-12-07 08:46:30 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_catalog/td_max-width' is present
+
+2017-12-07 08:46:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_catalog/td_max-width' is present
+
+2017-12-07 08:46:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_catalog/td_max-width' is clicked on
+
+2017-12-07 08:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_catalog/td_max-width' is clicked on
+
+2017-12-07 08:46:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_catalog/btn_create_table' is clicked on
+
+2017-12-07 08:46:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_catalog/btn_create_table' is clicked on
+
+2017-12-07 08:46:38 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_catalog/input_table-name' is present
+
+2017-12-07 08:46:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_catalog/input_table-name' is present
+
+2017-12-07 08:46:44 - [TEST_STEP][PASSED] - setText: Text 'Тестовая таблица' is set on object 'Object Repository/Page_catalog/input_table-name'
+
+2017-12-07 08:46:45 - [MESSAGE][PASSED] - Text 'Тестовая таблица' is set on object 'Object Repository/Page_catalog/input_table-name'
+
+2017-12-07 08:46:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_catalog/btn_save_table ' is clicked on
+
+2017-12-07 08:46:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_catalog/btn_save_table ' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-07 08:46:23 - [TEST_SUITE][PASSED] - Example: Test Cases/Create table]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Creation new user to test system</description>
+   <name>Create_User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7b60d5c8-4526-4c50-93a7-5365b11b8983</testCaseGuid>
+</TestCaseEntity>

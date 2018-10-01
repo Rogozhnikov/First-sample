@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Coloumn_group_click</name>
+   <tag></tag>
+   <elementGuidId>436cde4a-548c-4a28-b239-df23733b3f97</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;blockContainer&quot;]/div/div/div/div[2]/div/div[2]/div[2]/div[1]/div[2]/div[2]/div/div/div/ul/li[3]/div/div/div/div/ul/li[1]/table/tbody/tr/td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

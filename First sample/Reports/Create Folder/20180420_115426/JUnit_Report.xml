@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create Folder" time="24" tests="2" failures="0" errors="0">
+   <testsuite name="Create Folder" tests="2" failures="0" errors="0" time="24" timestamp="2018-04-20 11:54:27" hostname="21529 - ws-3591.oasup.pnppk.ru" id="Test Suites/Create Folder">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create Folder\\20180420_115426"/>
+         <property name="logFiles" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create Folder\\20180420_115426\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="21529 - ws-3591.oasup.pnppk.ru"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.117"/>
+         <property name="hostAddress" value="192.168.11.36"/>
+         <property name="sessionId" value="eeeca890d40a2ed8623c043916678498"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Authorization_Admin" classname="Test Cases/Authorization_Admin" status="PASSED">
+         <system-out><![CDATA[2018-04-20 11:54:27 - [TEST_CASE][PASSED] - Test Cases/Authorization_Admin: Test Cases/Authorization_Admin
+
+2018-04-20 11:54:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2018-04-20 11:54:32 - [MESSAGE][PASSED] - Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2018-04-20 11:54:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-20 11:54:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-20 11:54:33 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Authorization/input_login' is present
+
+2018-04-20 11:54:33 - [MESSAGE][PASSED] - Object 'Object Repository/Authorization/input_login' is present
+
+2018-04-20 11:54:33 - [TEST_STEP][PASSED] - setText: Text '777' is set on object 'Object Repository/Authorization/input_login'
+
+2018-04-20 11:54:33 - [MESSAGE][PASSED] - Text '777' is set on object 'Object Repository/Authorization/input_login'
+
+2018-04-20 11:54:33 - [TEST_STEP][PASSED] - setText: Text '7p15j9w2a' is set on object 'Object Repository/Authorization/input_password'
+
+2018-04-20 11:54:33 - [MESSAGE][PASSED] - Text '7p15j9w2a' is set on object 'Object Repository/Authorization/input_password'
+
+2018-04-20 11:54:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authorization/btn_login' is clicked on
+
+2018-04-20 11:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Authorization/btn_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_new_folder" classname="Test Cases/Create_new_folder" status="PASSED">
+         <system-out><![CDATA[2018-04-20 11:54:33 - [TEST_CASE][PASSED] - Test Cases/Create_new_folder: Test Cases/Create_new_folder
+
+2018-04-20 11:54:34 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Table_designer/All_objects' is present
+
+2018-04-20 11:54:39 - [MESSAGE][PASSED] - Object 'Object Repository/Table_designer/All_objects' is present
+
+2018-04-20 11:54:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/All_objects' is clicked on
+
+2018-04-20 11:54:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/All_objects' is clicked on
+
+2018-04-20 11:54:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_folder' is clicked on
+
+2018-04-20 11:54:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_folder' is clicked on
+
+2018-04-20 11:54:40 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-20 11:54:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-20 11:54:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_new_folder' is clicked on
+
+2018-04-20 11:54:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_new_folder' is clicked on
+
+2018-04-20 11:54:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-20 11:54:51 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-20 11:54:27 - [TEST_SUITE][PASSED] - Create Folder: Test Cases/Create_new_folder]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

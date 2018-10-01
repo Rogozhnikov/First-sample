@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Ok</name>
+   <tag></tag>
+   <elementGuidId>15ab22dc-9991-4296-a1a3-dfe24abc5859</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;modal fade ng-scope ng-isolate-scope in&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/role-edit-modal[@class=&quot;ng-scope ng-isolate-scope&quot;]/modal-wnd[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;modal-footer&quot;]/ul[@class=&quot;list-inline margin-0&quot;]/li[@class=&quot;ng-scope&quot;]/button[@class=&quot;btn btn-success ng-binding&quot;][count(. | //button[@type = 'button' and (text() = 'Ок' or . = 'Ок')]) = count(//button[@type = 'button' and (text() = 'Ок' or . = 'Ок')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(@class, 'btn-success')][@ng-click=&quot;$ctrl.okClickHander()&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-success ng-binding</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>$ctrl.okClickHander()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ок</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;modal fade ng-scope ng-isolate-scope in&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/role-edit-modal[@class=&quot;ng-scope ng-isolate-scope&quot;]/modal-wnd[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;modal-footer&quot;]/ul[@class=&quot;list-inline margin-0&quot;]/li[@class=&quot;ng-scope&quot;]/button[@class=&quot;btn btn-success ng-binding&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

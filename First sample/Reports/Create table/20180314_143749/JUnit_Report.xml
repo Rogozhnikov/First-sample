@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create table" time="29" tests="1" failures="1" errors="0">
+   <testsuite name="Create table" tests="1" failures="1" errors="0" time="29" timestamp="2018-03-14 14:37:50" hostname="21529 - ws-3591.oasup.pnppk.ru" id="Test Suites/Create table">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create table\\20180314_143749"/>
+         <property name="logFiles" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create table\\20180314_143749\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create table\\20180314_143749\\1521020298960.png"/>
+         <property name="hostName" value="21529 - ws-3591.oasup.pnppk.ru"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.146"/>
+         <property name="hostAddress" value="192.168.11.166"/>
+         <property name="sessionId" value="9e0c86e29f9266bdee7377c4cf2453ba"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Authorization_Admin" classname="Test Cases/Authorization_Admin" status="PASSED">
+         <system-out><![CDATA[2018-03-14 14:37:51 - [TEST_CASE][PASSED] - Test Cases/Authorization_Admin: Test Cases/Authorization_Admin
+
+2018-03-14 14:37:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2018-03-14 14:38:03 - [MESSAGE][PASSED] - Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2018-03-14 14:38:03 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-14 14:38:04 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-14 14:38:04 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Authorization/input_login' is present
+
+2018-03-14 14:38:04 - [MESSAGE][PASSED] - Object 'Object Repository/Authorization/input_login' is present
+
+2018-03-14 14:38:04 - [TEST_STEP][PASSED] - setText: Text '777' is set on object 'Object Repository/Authorization/input_login'
+
+2018-03-14 14:38:04 - [MESSAGE][PASSED] - Text '777' is set on object 'Object Repository/Authorization/input_login'
+
+2018-03-14 14:38:04 - [TEST_STEP][PASSED] - setText: Text '7p15j9w2a' is set on object 'Object Repository/Authorization/input_password'
+
+2018-03-14 14:38:05 - [MESSAGE][PASSED] - Text '7p15j9w2a' is set on object 'Object Repository/Authorization/input_password'
+
+2018-03-14 14:38:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authorization/btn_login' is clicked on
+
+2018-03-14 14:38:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Authorization/btn_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_Table" classname="Test Cases/Create_Table" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Table_designer/btn_create_internal_column' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.146)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WS-3591', ip: '192.168.11.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\21529\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.146, webStorageEnabled: true}
+Session ID: 9e0c86e29f9266bdee7377c4cf2453ba)"/>
+         <system-out><![CDATA[2018-03-14 14:38:05 - [TEST_CASE][FAILED] - Test Cases/Create_Table: Test Cases/Create_Table FAILED because (of) Unable to click on object 'Object Repository/Table_designer/btn_create_internal_column' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.146)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WS-3591', ip: '192.168.11.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\21529\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.146, webStorageEnabled: true}
+Session ID: 9e0c86e29f9266bdee7377c4cf2453ba)
+
+2018-03-14 14:38:05 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Table_designer/All_objects' is present
+
+2018-03-14 14:38:10 - [MESSAGE][PASSED] - Object 'Object Repository/Table_designer/All_objects' is present
+
+2018-03-14 14:38:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/All_objects' is clicked on
+
+2018-03-14 14:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/All_objects' is clicked on
+
+2018-03-14 14:38:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_table' is clicked on
+
+2018-03-14 14:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_table' is clicked on
+
+2018-03-14 14:38:11 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Table_designer/input_table-name' is present
+
+2018-03-14 14:38:17 - [MESSAGE][PASSED] - Object 'Object Repository/Table_designer/input_table-name' is present
+
+2018-03-14 14:38:17 - [TEST_STEP][PASSED] - setText: Text 'Тестовая таблица' is set on object 'Object Repository/Table_designer/input_table-name'
+
+2018-03-14 14:38:17 - [MESSAGE][PASSED] - Text 'Тестовая таблица' is set on object 'Object Repository/Table_designer/input_table-name'
+
+2018-03-14 14:38:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Table_designer/btn_create_column' is present
+
+2018-03-14 14:38:17 - [MESSAGE][PASSED] - Object 'Object Repository/Table_designer/btn_create_column' is present
+
+2018-03-14 14:38:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_column' is clicked on
+
+2018-03-14 14:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_column' is clicked on
+
+2018-03-14 14:38:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Column1_id' is clicked on
+
+2018-03-14 14:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Column1_id' is clicked on
+
+2018-03-14 14:38:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/input_name' is clicked on
+
+2018-03-14 14:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/input_name' is clicked on
+
+2018-03-14 14:38:17 - [TEST_STEP][PASSED] - setText: Text 'Номер по порядку' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-03-14 14:38:17 - [MESSAGE][PASSED] - Text 'Номер по порядку' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-03-14 14:38:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-03-14 14:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-03-14 14:38:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Choose_integer' is clicked on
+
+2018-03-14 14:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Choose_integer' is clicked on
+
+2018-03-14 14:38:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_column' is clicked on
+
+2018-03-14 14:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_column' is clicked on
+
+2018-03-14 14:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Column2_string' is clicked on
+
+2018-03-14 14:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Column2_string' is clicked on
+
+2018-03-14 14:38:18 - [TEST_STEP][PASSED] - setText: Text 'Строка' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-03-14 14:38:18 - [MESSAGE][PASSED] - Text 'Строка' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-03-14 14:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_column_group' is clicked on
+
+2018-03-14 14:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_column_group' is clicked on
+
+2018-03-14 14:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-03-14 14:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-03-14 14:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_internal_column' is clicked on
+
+2018-03-14 14:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_internal_column' is clicked on
+
+2018-03-14 14:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/New_column_click' is clicked on
+
+2018-03-14 14:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/New_column_click' is clicked on
+
+2018-03-14 14:38:18 - [TEST_STEP][PASSED] - setText: Text 'Текст' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-03-14 14:38:18 - [MESSAGE][PASSED] - Text 'Текст' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-03-14 14:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-03-14 14:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-03-14 14:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Choose_multitext' is clicked on
+
+2018-03-14 14:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Choose_multitext' is clicked on
+
+2018-03-14 14:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-03-14 14:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-03-14 14:38:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Table_designer/btn_create_internal_column' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.146)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WS-3591', ip: '192.168.11.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\21529\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.146, webStorageEnabled: true}
+Session ID: 9e0c86e29f9266bdee7377c4cf2453ba)
+
+2018-03-14 14:38:19 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Table_designer/btn_create_internal_column' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.146)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WS-3591', ip: '192.168.11.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\21529\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.146, webStorageEnabled: true}
+Session ID: 9e0c86e29f9266bdee7377c4cf2453ba)
+[[ATTACHMENT|C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create table\\20180314_143749\\1521020298960.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-14 14:38:05 - [TEST_CASE][FAILED] - Test Cases/Create_Table: Test Cases/Create_Table FAILED because (of) Unable to click on object 'Object Repository/Table_designer/btn_create_internal_column' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.146)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WS-3591', ip: '192.168.11.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\21529\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.146, webStorageEnabled: true}
+Session ID: 9e0c86e29f9266bdee7377c4cf2453ba)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-14 14:37:50 - [TEST_SUITE][FAILED] - Create table: Test Cases/Create_Table FAILED because (of) Unable to click on object 'Object Repository/Table_designer/btn_create_internal_column' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.146)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WS-3591', ip: '192.168.11.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\21529\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.146, webStorageEnabled: true}
+Session ID: 9e0c86e29f9266bdee7377c4cf2453ba)]]></system-out>
+      <system-err><![CDATA[2018-03-14 14:37:50 - [TEST_SUITE][FAILED] - Create table: Test Cases/Create_Table FAILED because (of) Unable to click on object 'Object Repository/Table_designer/btn_create_internal_column' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.146)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WS-3591', ip: '192.168.11.166', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\21529\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.146, webStorageEnabled: true}
+Session ID: 9e0c86e29f9266bdee7377c4cf2453ba)]]></system-err>
+   </testsuite>
+</testsuites>

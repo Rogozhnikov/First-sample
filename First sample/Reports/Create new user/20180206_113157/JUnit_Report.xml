@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create new user" time="41" tests="1" failures="1" errors="0">
+   <testsuite name="Create new user" tests="1" failures="1" errors="0" time="41" timestamp="2018-02-06 11:31:57" hostname="21529 - ws-3591.oasup.pnppk.ru" id="Test Suites/Create new user">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create new user\\20180206_113157"/>
+         <property name="logFiles" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create new user\\20180206_113157\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create new user\\20180206_113157\\1517898758564.png"/>
+         <property name="hostName" value="21529 - ws-3591.oasup.pnppk.ru"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.66.170"/>
+         <property name="sessionId" value="78eee742430f6a08a617d9ee076dde74"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Authorization" classname="Test Cases/Authorization" status="PASSED">
+         <system-out><![CDATA[2018-02-06 11:31:58 - [TEST_CASE][PASSED] - Test Cases/Authorization: Test Cases/Authorization
+
+2018-02-06 11:31:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2018-02-06 11:32:04 - [MESSAGE][PASSED] - Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2018-02-06 11:32:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-02-06 11:32:05 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-06 11:32:05 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_logipass/input_login' is present
+
+2018-02-06 11:32:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_logipass/input_login' is present
+
+2018-02-06 11:32:05 - [TEST_STEP][PASSED] - setText: Text '777' is set on object 'Object Repository/Page_logipass/input_login'
+
+2018-02-06 11:32:05 - [MESSAGE][PASSED] - Text '777' is set on object 'Object Repository/Page_logipass/input_login'
+
+2018-02-06 11:32:05 - [TEST_STEP][PASSED] - setText: Text '7p15j9w2a' is set on object 'Object Repository/Page_logipass/input_password'
+
+2018-02-06 11:32:05 - [MESSAGE][PASSED] - Text '7p15j9w2a' is set on object 'Object Repository/Page_logipass/input_password'
+
+2018-02-06 11:32:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_logipass/p_' is clicked on
+
+2018-02-06 11:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_logipass/p_' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create user" classname="Test Cases/Create user" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Users/input_form_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/input_form_Login' located by 'By.xpath: /html[@class=&quot;ng-scope&quot;]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;modal worksheet-edit-form-metadata-window fade ng-scope ng-isolate-scope in&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body ng-scope&quot;]/div[@class=&quot;tab-content ng-scope&quot;]/simple-reg[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body form-horizontal&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-6&quot;]/input[@class=&quot;form-control ng-pristine ng-untouched ng-valid ng-empty&quot;][count(. | //input[@type = 'text' and @placeholder = 'Логин']) = count(//input[@type = 'text' and @placeholder = 'Логин'])]' not found)"/>
+         <system-out><![CDATA[2018-02-06 11:32:06 - [TEST_CASE][FAILED] - Test Cases/Create user: Test Cases/Create user FAILED because (of) Unable to click on object 'Object Repository/Users/input_form_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/input_form_Login' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="modal-open"]/div[@class="modal worksheet-edit-form-metadata-window fade ng-scope ng-isolate-scope in"]/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/div[@class="tab-content ng-scope"]/simple-reg[@class="ng-scope ng-isolate-scope"]/div[@class="row"]/div[@class="col-md-6"]/div[@class="panel panel-default"]/div[@class="panel-body form-horizontal"]/div[@class="form-group"]/div[@class="col-sm-6"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-empty"][count(. | //input[@type = 'text' and @placeholder = 'Логин']) = count(//input[@type = 'text' and @placeholder = 'Логин'])]' not found)
+
+2018-02-06 11:32:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vszokdb2:55555/#/admin/data/hierarchy' successfully
+
+2018-02-06 11:32:06 - [MESSAGE][PASSED] - Navigate to 'http://vszokdb2:55555/#/admin/data/hierarchy' successfully
+
+2018-02-06 11:32:06 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Users/span_Users' is present
+
+2018-02-06 11:32:06 - [MESSAGE][PASSED] - Object 'Object Repository/Users/span_Users' is present
+
+2018-02-06 11:32:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/span_Users' is clicked on
+
+2018-02-06 11:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/span_Users' is clicked on
+
+2018-02-06 11:32:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/btn_create_user' is clicked on
+
+2018-02-06 11:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/btn_create_user' is clicked on
+
+2018-02-06 11:32:07 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Users/input_form_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/input_form_Login' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="modal-open"]/div[@class="modal worksheet-edit-form-metadata-window fade ng-scope ng-isolate-scope in"]/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/div[@class="tab-content ng-scope"]/simple-reg[@class="ng-scope ng-isolate-scope"]/div[@class="row"]/div[@class="col-md-6"]/div[@class="panel panel-default"]/div[@class="panel-body form-horizontal"]/div[@class="form-group"]/div[@class="col-sm-6"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-empty"][count(. | //input[@type = 'text' and @placeholder = 'Логин']) = count(//input[@type = 'text' and @placeholder = 'Логин'])]' not found)
+
+2018-02-06 11:32:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Users/input_form_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/input_form_Login' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="modal-open"]/div[@class="modal worksheet-edit-form-metadata-window fade ng-scope ng-isolate-scope in"]/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/div[@class="tab-content ng-scope"]/simple-reg[@class="ng-scope ng-isolate-scope"]/div[@class="row"]/div[@class="col-md-6"]/div[@class="panel panel-default"]/div[@class="panel-body form-horizontal"]/div[@class="form-group"]/div[@class="col-sm-6"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-empty"][count(. | //input[@type = 'text' and @placeholder = 'Логин']) = count(//input[@type = 'text' and @placeholder = 'Логин'])]' not found)
+[[ATTACHMENT|C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create new user\\20180206_113157\\1517898758564.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-06 11:32:06 - [TEST_CASE][FAILED] - Test Cases/Create user: Test Cases/Create user FAILED because (of) Unable to click on object 'Object Repository/Users/input_form_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/input_form_Login' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="modal-open"]/div[@class="modal worksheet-edit-form-metadata-window fade ng-scope ng-isolate-scope in"]/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/div[@class="tab-content ng-scope"]/simple-reg[@class="ng-scope ng-isolate-scope"]/div[@class="row"]/div[@class="col-md-6"]/div[@class="panel panel-default"]/div[@class="panel-body form-horizontal"]/div[@class="form-group"]/div[@class="col-sm-6"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-empty"][count(. | //input[@type = 'text' and @placeholder = 'Логин']) = count(//input[@type = 'text' and @placeholder = 'Логин'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-06 11:31:57 - [TEST_SUITE][FAILED] - Create new user: Test Cases/Create user FAILED because (of) Unable to click on object 'Object Repository/Users/input_form_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/input_form_Login' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="modal-open"]/div[@class="modal worksheet-edit-form-metadata-window fade ng-scope ng-isolate-scope in"]/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/div[@class="tab-content ng-scope"]/simple-reg[@class="ng-scope ng-isolate-scope"]/div[@class="row"]/div[@class="col-md-6"]/div[@class="panel panel-default"]/div[@class="panel-body form-horizontal"]/div[@class="form-group"]/div[@class="col-sm-6"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-empty"][count(. | //input[@type = 'text' and @placeholder = 'Логин']) = count(//input[@type = 'text' and @placeholder = 'Логин'])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-02-06 11:31:57 - [TEST_SUITE][FAILED] - Create new user: Test Cases/Create user FAILED because (of) Unable to click on object 'Object Repository/Users/input_form_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Users/input_form_Login' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="modal-open"]/div[@class="modal worksheet-edit-form-metadata-window fade ng-scope ng-isolate-scope in"]/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/div[@class="tab-content ng-scope"]/simple-reg[@class="ng-scope ng-isolate-scope"]/div[@class="row"]/div[@class="col-md-6"]/div[@class="panel panel-default"]/div[@class="panel-body form-horizontal"]/div[@class="form-group"]/div[@class="col-sm-6"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-empty"][count(. | //input[@type = 'text' and @placeholder = 'Логин']) = count(//input[@type = 'text' and @placeholder = 'Логин'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

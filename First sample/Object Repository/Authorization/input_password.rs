@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_password</name>
+   <tag></tag>
+   <elementGuidId>7a13d245-320c-4836-8837-f299599a2bfa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[count(. | //*[@ng-keyup = '$event.keyCode == 13 ? logon() : null']) = count(//*[@ng-keyup = '$event.keyCode == 13 ? logon() : null'])][count(. | //*[@class = 'password-input ng-pristine ng-untouched ng-valid ng-empty']) = count(//*[@class = 'password-input ng-pristine ng-untouched ng-valid ng-empty'])][count(. | //*[@name = 'password']) = count(//*[@name = 'password'])][count(. | //*[@type = 'password']) = count(//*[@type = 'password'])][count(. | //*[@ng-model = 'password']) = count(//*[@ng-model = 'password'])][count(. | //*[@ng-disabled = 'isSendingProcess']) = count(//*[@ng-disabled = 'isSendingProcess'])][count(. | id(&quot;loginLayout&quot;)/div[@class=&quot;display-table&quot;]/div[@class=&quot;table-row&quot;]/div[@class=&quot;table-cell&quot;]/input[@class=&quot;password-input ng-pristine ng-untouched ng-valid ng-empty&quot;]) = count(id(&quot;loginLayout&quot;)/div[@class=&quot;display-table&quot;]/div[@class=&quot;table-row&quot;]/div[@class=&quot;table-cell&quot;]/input[@class=&quot;password-input ng-pristine ng-untouched ng-valid ng-empty&quot;])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name=&quot;password&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-keyup</name>
+      <type>Main</type>
+      <value>$event.keyCode == 13 ? logon() : null</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>password-input ng-pristine ng-untouched ng-valid ng-empty</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>isSendingProcess</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loginLayout&quot;)/div[@class=&quot;display-table&quot;]/div[@class=&quot;table-row&quot;]/div[@class=&quot;table-cell&quot;]/input[@class=&quot;password-input ng-pristine ng-untouched ng-valid ng-empty&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

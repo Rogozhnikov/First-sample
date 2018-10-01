@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Example,Chrome 62.0.3202.94,,2017-12-06 10:17:13,2017-12-06 10:17:21,"8,833s",PASSED
+,,,,,,
+Test Cases/Authorization,Chrome 62.0.3202.94,,2017-12-06 10:17:13,2017-12-06 10:17:20,"7,743s",PASSED
+openBrowser,Chrome 62.0.3202.94,,2017-12-06 10:17:13,2017-12-06 10:17:20,"6,854s",PASSED
+waitForElementPresent,Chrome 62.0.3202.94,,2017-12-06 10:17:20,2017-12-06 10:17:20,"0,145s",PASSED
+setText,Chrome 62.0.3202.94,,2017-12-06 10:17:20,2017-12-06 10:17:20,"0,213s",PASSED
+setText,Chrome 62.0.3202.94,,2017-12-06 10:17:20,2017-12-06 10:17:20,"0,138s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-06 10:17:20,2017-12-06 10:17:20,"0,133s",PASSED
+,,,,,,
+Test Cases/Create folder,Chrome 62.0.3202.94,,2017-12-06 10:17:21,2017-12-06 10:17:21,"0,136s",PASSED
+navigateToUrl,Chrome 62.0.3202.94,,2017-12-06 10:17:21,2017-12-06 10:17:21,"0,054s",PASSED

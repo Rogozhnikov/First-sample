@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_textbox_FindRole</name>
+   <tag></tag>
+   <elementGuidId>47e9f280-82e2-4a1d-aa10-cb90cef8d505</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>dataProvider.filters.searchTextInControl</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>on-enter-keypress</name>
+      <type>Main</type>
+      <value>dataProvider.search()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>textbox-coreadmin ng-pristine ng-valid ng-empty ng-touched</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;blockContainer&quot;)/roles-manager[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;container inner-flex&quot;]/div[@class=&quot;row inner-flex-stretch&quot;]/div[@class=&quot;col-md-6 inner-flex&quot;]/roles-panel[@class=&quot;inner-flex inner-flex-stretch ng-isolate-scope&quot;]/roles-panel-default[@class=&quot;inner-flex inner-flex-stretch ng-isolate-scope&quot;]/panel[@class=&quot;inner-flex inner-flex-stretch ng-isolate-scope&quot;]/div[@class=&quot;panel panel-default inner-flex inner-flex-stretch&quot;]/div[@class=&quot;panel-body inner-flex inner-flex-stretch&quot;]/panel-body[@class=&quot;inner-flex inner-flex-stretch ng-scope&quot;]/role-list[@class=&quot;inner-flex inner-flex-stretch ng-isolate-scope&quot;]/custom-tree[@class=&quot;inner-flex ng-isolate-scope&quot;]/div[@class=&quot;inner-flex inner-flex-stretch&quot;]/div[@class=&quot;display-table ng-scope&quot;]/div[@class=&quot;display-table-row&quot;]/div[@class=&quot;display-table-cell max-width&quot;]/input[@class=&quot;textbox-coreadmin ng-pristine ng-valid ng-empty ng-touched&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

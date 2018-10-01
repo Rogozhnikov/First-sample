@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create new user,Chrome 63.0.3239.132,,2018-02-06 10:46:10,2018-02-06 10:46:22,"12,031s",PASSED
+,,,,,,
+Test Cases/Authorization,Chrome 63.0.3239.132,,2018-02-06 10:46:11,2018-02-06 10:46:20,"9,104s",PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-06 10:46:11,2018-02-06 10:46:18,"7,018s",PASSED
+maximizeWindow,Chrome 63.0.3239.132,,2018-02-06 10:46:18,2018-02-06 10:46:19,"1,450s",PASSED
+waitForElementPresent,Chrome 63.0.3239.132,,2018-02-06 10:46:19,2018-02-06 10:46:19,"0,038s",PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 10:46:19,2018-02-06 10:46:20,"0,178s",PASSED
+setText,Chrome 63.0.3239.132,,2018-02-06 10:46:20,2018-02-06 10:46:20,"0,135s",PASSED
+click,Chrome 63.0.3239.132,,2018-02-06 10:46:20,2018-02-06 10:46:20,"0,093s",PASSED
+,,,,,,
+Test Cases/Create user,Chrome 63.0.3239.132,Creation new user to test system,2018-02-06 10:46:20,2018-02-06 10:46:22,"1,989s",PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-06 10:46:20,2018-02-06 10:46:20,"0,050s",PASSED
+waitForElementPresent,Chrome 63.0.3239.132,,2018-02-06 10:46:20,2018-02-06 10:46:22,"1,854s",PASSED

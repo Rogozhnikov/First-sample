@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create table" time="52" tests="1" failures="1" errors="0">
+   <testsuite name="Create table" tests="1" failures="1" errors="0" time="52" timestamp="2018-03-14 16:46:56" hostname="21529 - ws-3591.oasup.pnppk.ru" id="Test Suites/Create table">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create table\\20180314_164655"/>
+         <property name="logFiles" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create table\\20180314_164655\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create table\\20180314_164655\\1521028067792.png"/>
+         <property name="hostName" value="21529 - ws-3591.oasup.pnppk.ru"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.146"/>
+         <property name="hostAddress" value="192.168.11.166"/>
+         <property name="sessionId" value="9901982ccf0d6c8ab0eea084ab2529fa"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Authorization_Admin" classname="Test Cases/Authorization_Admin" status="PASSED">
+         <system-out><![CDATA[2018-03-14 16:46:57 - [TEST_CASE][PASSED] - Test Cases/Authorization_Admin: Test Cases/Authorization_Admin
+
+2018-03-14 16:46:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2018-03-14 16:47:03 - [MESSAGE][PASSED] - Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2018-03-14 16:47:03 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-14 16:47:05 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-14 16:47:05 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Authorization/input_login' is present
+
+2018-03-14 16:47:05 - [MESSAGE][PASSED] - Object 'Object Repository/Authorization/input_login' is present
+
+2018-03-14 16:47:05 - [TEST_STEP][PASSED] - setText: Text '777' is set on object 'Object Repository/Authorization/input_login'
+
+2018-03-14 16:47:05 - [MESSAGE][PASSED] - Text '777' is set on object 'Object Repository/Authorization/input_login'
+
+2018-03-14 16:47:05 - [TEST_STEP][PASSED] - setText: Text '7p15j9w2a' is set on object 'Object Repository/Authorization/input_password'
+
+2018-03-14 16:47:05 - [MESSAGE][PASSED] - Text '7p15j9w2a' is set on object 'Object Repository/Authorization/input_password'
+
+2018-03-14 16:47:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authorization/btn_login' is clicked on
+
+2018-03-14 16:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Authorization/btn_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_Table" classname="Test Cases/Create_Table" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Table_designer/btn_create_internal_column' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Table_designer/btn_create_internal_column' located by 'By.xpath: //div[contains(@class,&quot;panel-body&quot;)][contains(@class,&quot;inner-flex-stretch&quot;)]//ul//li[not(ancestor::li)][last()-1]//i[not(contains(@class, &quot;icon-disabled&quot;))][@ng-click = &quot;treeWorker.isGroup(node) ? treeWorker.addColumn(node) : 
+' not found)"/>
+         <system-out><![CDATA[2018-03-14 16:47:05 - [TEST_CASE][FAILED] - Test Cases/Create_Table: Test Cases/Create_Table FAILED because (of) Unable to click on object 'Object Repository/Table_designer/btn_create_internal_column' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Table_designer/btn_create_internal_column' located by 'By.xpath: //div[contains(@class,"panel-body")][contains(@class,"inner-flex-stretch")]//ul//li[not(ancestor::li)][last()-1]//i[not(contains(@class, "icon-disabled"))][@ng-click = "treeWorker.isGroup(node) ? treeWorker.addColumn(node) : 
+' not found)
+
+2018-03-14 16:47:05 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Table_designer/All_objects' is present
+
+2018-03-14 16:47:10 - [MESSAGE][PASSED] - Object 'Object Repository/Table_designer/All_objects' is present
+
+2018-03-14 16:47:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/All_objects' is clicked on
+
+2018-03-14 16:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/All_objects' is clicked on
+
+2018-03-14 16:47:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_table' is clicked on
+
+2018-03-14 16:47:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_table' is clicked on
+
+2018-03-14 16:47:12 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Table_designer/input_table-name' is present
+
+2018-03-14 16:47:15 - [MESSAGE][PASSED] - Object 'Object Repository/Table_designer/input_table-name' is present
+
+2018-03-14 16:47:15 - [TEST_STEP][PASSED] - setText: Text 'Тестовая таблица' is set on object 'Object Repository/Table_designer/input_table-name'
+
+2018-03-14 16:47:16 - [MESSAGE][PASSED] - Text 'Тестовая таблица' is set on object 'Object Repository/Table_designer/input_table-name'
+
+2018-03-14 16:47:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Table_designer/btn_create_column' is present
+
+2018-03-14 16:47:16 - [MESSAGE][PASSED] - Object 'Object Repository/Table_designer/btn_create_column' is present
+
+2018-03-14 16:47:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_column' is clicked on
+
+2018-03-14 16:47:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_column' is clicked on
+
+2018-03-14 16:47:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Column1_id' is clicked on
+
+2018-03-14 16:47:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Column1_id' is clicked on
+
+2018-03-14 16:47:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/input_name' is clicked on
+
+2018-03-14 16:47:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/input_name' is clicked on
+
+2018-03-14 16:47:16 - [TEST_STEP][PASSED] - setText: Text 'Номер по порядку' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-03-14 16:47:16 - [MESSAGE][PASSED] - Text 'Номер по порядку' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-03-14 16:47:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-03-14 16:47:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Span_field_types' is clicked on
+
+2018-03-14 16:47:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Choose_integer' is clicked on
+
+2018-03-14 16:47:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Choose_integer' is clicked on
+
+2018-03-14 16:47:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_column' is clicked on
+
+2018-03-14 16:47:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_column' is clicked on
+
+2018-03-14 16:47:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/Column2_string' is clicked on
+
+2018-03-14 16:47:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/Column2_string' is clicked on
+
+2018-03-14 16:47:16 - [TEST_STEP][PASSED] - setText: Text 'Строка' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-03-14 16:47:17 - [MESSAGE][PASSED] - Text 'Строка' is set on object 'Object Repository/Table_designer/input_name'
+
+2018-03-14 16:47:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/btn_create_column_group' is clicked on
+
+2018-03-14 16:47:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/btn_create_column_group' is clicked on
+
+2018-03-14 16:47:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-03-14 16:47:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Table_designer/column_group' is clicked on
+
+2018-03-14 16:47:17 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Table_designer/btn_create_internal_column' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Table_designer/btn_create_internal_column' located by 'By.xpath: //div[contains(@class,"panel-body")][contains(@class,"inner-flex-stretch")]//ul//li[not(ancestor::li)][last()-1]//i[not(contains(@class, "icon-disabled"))][@ng-click = "treeWorker.isGroup(node) ? treeWorker.addColumn(node) : 
+' not found)
+
+2018-03-14 16:47:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Table_designer/btn_create_internal_column' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Table_designer/btn_create_internal_column' located by 'By.xpath: //div[contains(@class,"panel-body")][contains(@class,"inner-flex-stretch")]//ul//li[not(ancestor::li)][last()-1]//i[not(contains(@class, "icon-disabled"))][@ng-click = "treeWorker.isGroup(node) ? treeWorker.addColumn(node) : 
+' not found)
+[[ATTACHMENT|C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Create table\\20180314_164655\\1521028067792.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-14 16:47:05 - [TEST_CASE][FAILED] - Test Cases/Create_Table: Test Cases/Create_Table FAILED because (of) Unable to click on object 'Object Repository/Table_designer/btn_create_internal_column' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Table_designer/btn_create_internal_column' located by 'By.xpath: //div[contains(@class,"panel-body")][contains(@class,"inner-flex-stretch")]//ul//li[not(ancestor::li)][last()-1]//i[not(contains(@class, "icon-disabled"))][@ng-click = "treeWorker.isGroup(node) ? treeWorker.addColumn(node) : 
+' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-14 16:46:56 - [TEST_SUITE][FAILED] - Create table: Test Cases/Create_Table FAILED because (of) Unable to click on object 'Object Repository/Table_designer/btn_create_internal_column' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Table_designer/btn_create_internal_column' located by 'By.xpath: //div[contains(@class,"panel-body")][contains(@class,"inner-flex-stretch")]//ul//li[not(ancestor::li)][last()-1]//i[not(contains(@class, "icon-disabled"))][@ng-click = "treeWorker.isGroup(node) ? treeWorker.addColumn(node) : 
+' not found)]]></system-out>
+      <system-err><![CDATA[2018-03-14 16:46:56 - [TEST_SUITE][FAILED] - Create table: Test Cases/Create_Table FAILED because (of) Unable to click on object 'Object Repository/Table_designer/btn_create_internal_column' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Table_designer/btn_create_internal_column' located by 'By.xpath: //div[contains(@class,"panel-body")][contains(@class,"inner-flex-stretch")]//ul//li[not(ancestor::li)][last()-1]//i[not(contains(@class, "icon-disabled"))][@ng-click = "treeWorker.isGroup(node) ? treeWorker.addColumn(node) : 
+' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create new user,,,2018-02-06 11:00:52,2018-02-06 11:00:53,"1,097s",FAILED
+,,,,,,
+Test Cases/Authorization,,,2018-02-06 11:00:52,2018-02-06 11:00:53,"0,648s",FAILED
+openBrowser,,,2018-02-06 11:00:52,2018-02-06 11:00:53,"0,342s",FAILED
+,,,,,,
+Test Cases/Create user,,Creation new user to test system,2018-02-06 11:00:53,2018-02-06 11:00:53,"0,160s",FAILED
+navigateToUrl,,,2018-02-06 11:00:53,2018-02-06 11:00:53,"0,018s",FAILED

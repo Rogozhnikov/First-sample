@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add user role" time="10" tests="2" failures="0" errors="0">
+   <testsuite name="Add user role" tests="2" failures="0" errors="0" time="10" timestamp="2018-02-09 09:58:10" hostname="21529 - ws-3591.oasup.pnppk.ru" id="Test Suites/Add user role">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Add user role\\20180209_095809"/>
+         <property name="logFiles" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Add user role\\20180209_095809\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="21529 - ws-3591.oasup.pnppk.ru"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.14.114"/>
+         <property name="sessionId" value="bef849eb1996d8af7e81e9113f7e86df"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Authorization_Admin" classname="Test Cases/Authorization_Admin" status="PASSED">
+         <system-out><![CDATA[2018-02-09 09:58:10 - [TEST_CASE][PASSED] - Test Cases/Authorization_Admin: Test Cases/Authorization_Admin
+
+2018-02-09 09:58:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2018-02-09 09:58:15 - [MESSAGE][PASSED] - Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2018-02-09 09:58:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-02-09 09:58:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-09 09:58:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Authorization/input_login' is present
+
+2018-02-09 09:58:16 - [MESSAGE][PASSED] - Object 'Object Repository/Authorization/input_login' is present
+
+2018-02-09 09:58:16 - [TEST_STEP][PASSED] - setText: Text '777' is set on object 'Object Repository/Authorization/input_login'
+
+2018-02-09 09:58:16 - [MESSAGE][PASSED] - Text '777' is set on object 'Object Repository/Authorization/input_login'
+
+2018-02-09 09:58:16 - [TEST_STEP][PASSED] - setText: Text '7p15j9w2a' is set on object 'Object Repository/Authorization/input_password'
+
+2018-02-09 09:58:17 - [MESSAGE][PASSED] - Text '7p15j9w2a' is set on object 'Object Repository/Authorization/input_password'
+
+2018-02-09 09:58:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authorization/btn_login' is clicked on
+
+2018-02-09 09:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Authorization/btn_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add_User_Role" classname="Test Cases/Add_User_Role" status="PASSED">
+         <system-out><![CDATA[2018-02-09 09:58:17 - [TEST_CASE][PASSED] - Test Cases/Add_User_Role: Test Cases/Add_User_Role
+
+2018-02-09 09:58:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vszokdb2:55555/#/admin/data/hierarchy' successfully
+
+2018-02-09 09:58:17 - [MESSAGE][PASSED] - Navigate to 'http://vszokdb2:55555/#/admin/data/hierarchy' successfully
+
+2018-02-09 09:58:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Users/span_Users' is present
+
+2018-02-09 09:58:17 - [MESSAGE][PASSED] - Object 'Object Repository/Users/span_Users' is present
+
+2018-02-09 09:58:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/span_Users' is clicked on
+
+2018-02-09 09:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/span_Users' is clicked on
+
+2018-02-09 09:58:17 - [TEST_STEP][PASSED] - setText: Text 'Тестовый пользователь Katalon' is set on object 'Object Repository/Users/User_Login'
+
+2018-02-09 09:58:19 - [MESSAGE][PASSED] - Text 'Тестовый пользователь Katalon' is set on object 'Object Repository/Users/User_Login'
+
+2018-02-09 09:58:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/Login_header' is clicked on
+
+2018-02-09 09:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/Login_header' is clicked on
+
+2018-02-09 09:58:19 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Users/btn_create_user' is present
+
+2018-02-09 09:58:19 - [MESSAGE][PASSED] - Object 'Object Repository/Users/btn_create_user' is present
+
+2018-02-09 09:58:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/btn_Edit_User' is clicked on
+
+2018-02-09 09:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/btn_Edit_User' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-09 09:58:10 - [TEST_SUITE][PASSED] - Add user role: Test Cases/Add_User_Role]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

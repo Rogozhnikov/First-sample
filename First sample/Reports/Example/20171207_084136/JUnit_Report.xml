@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Example" time="168" tests="1" failures="1" errors="0">
+   <testsuite name="Example" tests="1" failures="1" errors="0" time="168" timestamp="2017-12-07 08:41:37" hostname="21529 - ws-3591.oasup.pnppk.ru" id="Test Suites/Example">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Example\\20171207_084136"/>
+         <property name="logFiles" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Example\\20171207_084136\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Example\\20171207_084136\\1512618265113.png"/>
+         <property name="hostName" value="21529 - ws-3591.oasup.pnppk.ru"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.1.0.2"/>
+         <property name="browser" value="Chrome 62.0.3202.94"/>
+         <property name="hostAddress" value="192.168.66.62"/>
+         <property name="sessionId" value="18d930645ba30e58ee039e69d3f387c9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Authorization" classname="Test Cases/Authorization" status="PASSED">
+         <system-out><![CDATA[2017-12-07 08:41:38 - [TEST_CASE][PASSED] - Test Cases/Authorization: Test Cases/Authorization
+
+2017-12-07 08:41:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2017-12-07 08:43:21 - [MESSAGE][PASSED] - Browser is opened with url: 'http://vszokdb2:55555/#/login'
+
+2017-12-07 08:43:21 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_logipass/input_login' is present
+
+2017-12-07 08:43:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_logipass/input_login' is present
+
+2017-12-07 08:43:21 - [TEST_STEP][PASSED] - setText: Text '777' is set on object 'Object Repository/Page_logipass/input_login'
+
+2017-12-07 08:43:21 - [MESSAGE][PASSED] - Text '777' is set on object 'Object Repository/Page_logipass/input_login'
+
+2017-12-07 08:43:22 - [TEST_STEP][PASSED] - setText: Text '7p15j9w2a' is set on object 'Object Repository/Page_logipass/input_password'
+
+2017-12-07 08:43:22 - [MESSAGE][PASSED] - Text '7p15j9w2a' is set on object 'Object Repository/Page_logipass/input_password'
+
+2017-12-07 08:43:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_logipass/p_' is clicked on
+
+2017-12-07 08:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_logipass/p_' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create table" classname="Test Cases/Create table" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_catalog/td_max-width' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_catalog/td_max-width' located by 'By.xpath: //*[@id=&quot;blockContainer&quot;]/div/div/div[3]/div[3]/div/div[1]/div/div/div/div/div/div/div/ul/li[1]/table/tbody/tr/td[4]' not found)"/>
+         <system-out><![CDATA[2017-12-07 08:43:22 - [TEST_CASE][FAILED] - Test Cases/Create table: Test Cases/Create table FAILED because (of) Unable to click on object 'Object Repository/Page_catalog/td_max-width' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_catalog/td_max-width' located by 'By.xpath: //*[@id="blockContainer"]/div/div/div[3]/div[3]/div/div[1]/div/div/div/div/div/div/div/ul/li[1]/table/tbody/tr/td[4]' not found)
+
+2017-12-07 08:43:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vszokdb2:55555/#/admin/data/hierarchy' successfully
+
+2017-12-07 08:43:22 - [MESSAGE][PASSED] - Navigate to 'http://vszokdb2:55555/#/admin/data/hierarchy' successfully
+
+2017-12-07 08:43:22 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_catalog/td_max-width' is not present after 30 second(s)
+
+2017-12-07 08:43:54 - [MESSAGE][WARNING] - Object 'Object Repository/Page_catalog/td_max-width' is not present after 30 second(s)
+
+2017-12-07 08:43:54 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_catalog/td_max-width' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_catalog/td_max-width' located by 'By.xpath: //*[@id="blockContainer"]/div/div/div[3]/div[3]/div/div[1]/div/div/div/div/div/div/div/ul/li[1]/table/tbody/tr/td[4]' not found)
+
+2017-12-07 08:44:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_catalog/td_max-width' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_catalog/td_max-width' located by 'By.xpath: //*[@id="blockContainer"]/div/div/div[3]/div[3]/div/div[1]/div/div/div/div/div/div/div/ul/li[1]/table/tbody/tr/td[4]' not found)
+[[ATTACHMENT|C:\\Users\\21529\\Katalon Studio\\First sample\\Reports\\Example\\20171207_084136\\1512618265113.png]]]]></system-out>
+         <system-err><![CDATA[2017-12-07 08:43:22 - [TEST_CASE][FAILED] - Test Cases/Create table: Test Cases/Create table FAILED because (of) Unable to click on object 'Object Repository/Page_catalog/td_max-width' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_catalog/td_max-width' located by 'By.xpath: //*[@id="blockContainer"]/div/div/div[3]/div[3]/div/div[1]/div/div/div/div/div/div/div/ul/li[1]/table/tbody/tr/td[4]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-07 08:41:37 - [TEST_SUITE][FAILED] - Example: Test Cases/Create table FAILED because (of) Unable to click on object 'Object Repository/Page_catalog/td_max-width' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_catalog/td_max-width' located by 'By.xpath: //*[@id="blockContainer"]/div/div/div[3]/div[3]/div/div[1]/div/div/div/div/div/div/div/ul/li[1]/table/tbody/tr/td[4]' not found)]]></system-out>
+      <system-err><![CDATA[2017-12-07 08:41:37 - [TEST_SUITE][FAILED] - Example: Test Cases/Create table FAILED because (of) Unable to click on object 'Object Repository/Page_catalog/td_max-width' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_catalog/td_max-width' located by 'By.xpath: //*[@id="blockContainer"]/div/div/div[3]/div[3]/div/div[1]/div/div/div/div/div/div/div/ul/li[1]/table/tbody/tr/td[4]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
